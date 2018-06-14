@@ -1,3 +1,8 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body, html {
     padding: 0;
     margin: 0;
@@ -123,7 +128,7 @@ footer {
     background-color: #590d0d;
     color: white;
     padding-left: 10px;
-    
+    border-radius: 10px;   
 }
 
 h2{
