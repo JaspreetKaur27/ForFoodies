@@ -137,7 +137,7 @@ function callback(results, status) {
             //console.log(results[i].name);
             //console.log("Rating: " + results[i].rating);
             createMarker(results[i]);
-            addImages(results[i].photos[0].getUrl({'maxWidth': 350, 'maxHeight': 350}), results[i].name, results[i].rating);
+            addImages(results[i].photos[0].getUrl({'maxWidth': 350, 'maxHeight': 350}), results[i].name, results[i].rating, results[i].vicinity);
         }
     }
 }
@@ -158,9 +158,9 @@ function createMarker(place) {
     });
 }
 
-function addImages(url, name, rating) {
+function addImages(url, name, rating, vicinity) {
     
-    $("#imageGallery").append('<div class="imageTile" ><img src="' + url + '" /><p class="restaurantName" >' + name + '</p><p class="restaurantName" >' + "Rating: " + rating + '</p></div>');
+    $("#imageGallery").append('<div class="imageTile" ><img src="' + url + '" /><p class="restaurantName" >' + name + '</p><p class="restaurantName" >' + "Rating: " + rating + '</p><p class="restaurantName">' + "Address: " + vicinity +'</p></div>');
 }
 
 
