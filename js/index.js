@@ -159,7 +159,7 @@ function createMarker(place) {
 }
 
 function addImages(url, name, rating) {
-
+    
     $("#imageGallery").append('<div class="imageTile" ><img src="' + url + '" /><p class="restaurantName" >' + name + '</p><p class="restaurantName" >' + "Rating: " + rating + '</p></div>');
 }
 
