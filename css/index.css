@@ -1,0 +1,142 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh; }
+
+.image {
+    width: 300px; }
+
+#gmap {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 500px;
+}
+
+header {
+    background: #590d0d;
+    color: white;
+    height: 25vh;
+    padding: 35px;
+}
+
+footer {
+    background: #590d0d;
+    color: white;
+    height: 15vh;
+    padding: 30px;
+    bottom: 0;
+}
+
+/* search box */
+
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#gmap #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+#target {
+    width: 345px;
+}
+
+/* image gallery styles */
+
+#imageGallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imageTile {
+    margin: 10px;
+}
+
+.restaurantName {
+    text-align: center;
+}
+
+#cmnt
+{
+    background-color: #590d0d;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+h2{
+    color: #590d0d;
+    font-family: Comic Sans Ms;
+}
+
+label
+{
+    color: #590d0d;
+}
+
+img{
+    width: 100%;
+    height: 60%;
+}
